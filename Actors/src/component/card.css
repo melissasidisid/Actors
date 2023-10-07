@@ -1,0 +1,39 @@
+
+
+.card{
+    /* height: ; */
+    width: 15rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin: auto;
+    cursor: pointer;
+    margin: 50px;
+    transition:ease-in 5s;
+    overflow: hidden;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.card:hover{
+  transform: skew(10deg);
+}
+.poster img{
+    width: 16rem;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition:ease-in 100s;
+    
+  
+}
+.poster img:hover{
+  transform: scale(2,3);
+  
+  z-index: 2;
+}
+.info{
+   color: #eee;
+}
